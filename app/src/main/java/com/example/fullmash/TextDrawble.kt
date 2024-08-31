@@ -4,6 +4,7 @@ import android.graphics.Paint
 import android.graphics.Rect
 import android.graphics.drawable.Drawable
 
+
 class TextDrawable(private val airQuality: Double, private val textColor: Int, private val bgColor: Int) : Drawable() {
 
     private val paint: Paint = Paint(Paint.ANTI_ALIAS_FLAG).apply {
